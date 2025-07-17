@@ -6,7 +6,12 @@ defineProps<{
 
 const count = ref({
   a: 1,
-  b: 2
+  b: 2,
+})
+
+const obj = ref({
+  aa: 1,
+  bb: 2,
 })
 </script>
 
