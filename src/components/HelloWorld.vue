@@ -4,13 +4,14 @@ defineProps<{
   msg: string
 }>();
 
-const count = ref(0)
-console.log('123123')
+const count = ref({
+  a: 1
+})
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }} {{ count }}</h1>
+    <h1 class="green">{{ msg }} {{ count.a }}</h1>
     <h3>
       You’ve successfully created a project with
       <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
