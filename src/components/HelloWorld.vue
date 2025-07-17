@@ -5,6 +5,7 @@ defineProps<{
 }>();
 
 const count = ref(0)
+console.log('123123')
 </script>
 
 <template>
